@@ -256,7 +256,7 @@ export default function App() {
           <motion.img 
             src="/logo.png" 
             alt="Logo do Evento" 
-            className="h-24 md:h-32 mb-6 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+            className="h-22 md:h-28 mb-6 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
