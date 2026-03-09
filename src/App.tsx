@@ -226,7 +226,7 @@ export default function App() {
         <img
           src="/logo-goias.png"
           alt="Logo Goiás"
-          className="h-[4.5vw] max-h-20 object-contain opacity-80 mt-4"
+          className="h-[3.5vw] max-h-16 object-contain opacity-80 mt-4"
         />
       </motion.div>
 
@@ -240,7 +240,7 @@ export default function App() {
         <img
           src="/logo-evento.png"
           alt="Logo do Evento"
-          className="h-[14vw] max-h-64 object-contain opacity-80"
+          className="h-[11vw] max-h-48 object-contain opacity-80"
         />
       </motion.div>
 
@@ -256,7 +256,7 @@ export default function App() {
           <motion.img 
             src="/logo.png" 
             alt="Logo do Evento" 
-            className="h-22 md:h-28 mb-6 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+            className="h-22 md:h-24 mb-6 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
