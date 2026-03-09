@@ -5,5 +5,9 @@
     { "source": "/api/checkin", "destination": "/api/checkin" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "includeFiles": ["participantes.json"]
+  "functions": {
+    "api/checkin.ts": {
+      "includeFiles": "participantes.json"
+    }
+  }
 }
