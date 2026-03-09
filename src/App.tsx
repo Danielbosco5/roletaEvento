@@ -219,14 +219,14 @@ export default function App() {
         <img
           src="/logo-parceiro.png"
           alt="Logo Parceiro"
-          className="h-25 lg:h-28 object-contain opacity-80 -mt-8"
+          className="h-[6vw] max-h-28 object-contain opacity-80 -mt-8"
         />
         
 
         <img
           src="/logo-goias.png"
           alt="Logo Goiás"
-          className="h-15 lg:h-20 object-contain opacity-80 mt-4"
+          className="h-[4.5vw] max-h-20 object-contain opacity-80 mt-4"
         />
       </motion.div>
 
@@ -240,7 +240,7 @@ export default function App() {
         <img
           src="/logo-evento.png"
           alt="Logo do Evento"
-          className="h-52 lg:h-64 object-contain opacity-80"
+          className="h-[14vw] max-h-64 object-contain opacity-80"
         />
       </motion.div>
 
@@ -302,7 +302,7 @@ export default function App() {
             <div className={`absolute inset-0 rounded-full border-2 transition-colors duration-1000 ${isSpinning ? 'border-cyan-500 shadow-[0_0_30px_rgba(0,240,255,0.5)]' : 'border-slate-700'}`}></div>
             
             <motion.div 
-              className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px] rounded-full overflow-hidden"
+              className="relative w-[22vw] h-[22vw] max-w-[380px] max-h-[380px] min-w-[280px] min-h-[280px] rounded-full overflow-hidden"
               animate={controls}
               initial={{ rotate: 0 }}
             >
