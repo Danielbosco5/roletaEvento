@@ -1,0 +1,9 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/checkin", "destination": "/api/checkin" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "includeFiles": ["participantes.json"]
+}
