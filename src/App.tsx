@@ -3,7 +3,7 @@ import { motion, useAnimation, AnimatePresence } from 'motion/react';
 import { Shield } from 'lucide-react';
 
 const COLORS = [
-  { id: 'azul', hex: '#00f0ff', label: 'Azul', shadow: 'rgba(0, 240, 255, 0.8)' },
+  { id: 'azul', hex: '#0055ff', label: 'Azul', shadow: 'rgba(0, 85, 255, 0.8)' },
   { id: 'verde', hex: '#00ff00', label: 'Verde', shadow: 'rgba(0, 255, 0, 0.8)' },
   { id: 'amarelo', hex: '#ffea00', label: 'Amarelo', shadow: 'rgba(255, 234, 0, 0.8)' },
   { id: 'vermelho', hex: '#ff003c', label: 'Vermelho', shadow: 'rgba(255, 0, 60, 0.8)' },
